@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 <body>
-<script>
 <style>
 body {font-family: "Lato", sans-serif;}
 
@@ -121,6 +120,7 @@ ul.tab li a:focus, .active {
   <p>list of english teachers</p>
 </div>
 ----------------->
+<script>
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
