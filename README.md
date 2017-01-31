@@ -77,18 +77,21 @@ ul.tab li a:focus, .active {
     <div data-role = "header">
     <center><h2> there should be a table here with all of the math teachers with this last name range. the data should come from the spreadsheet </h2></center>
     </div>
+    <a href = "#HomePage"> go back home </a>
     </div>
  <!----------------------hopefully this actually works------------------>
 <div data-role = "page" id = "MathTeachersG-M">
     <div data-role = "header">
     <center><h2> there should be a table here with all of the math teachers with this last name range. the data should come from the spreadsheet </h2></center>
     </div>
+    <a href = "#HomePage"> go back home </a>
     </div>
 <!-------------page 2..........?------------->
 <div data-role = "page" id = "MathTeachersN-Z">
     <div data-role = "header">
     <center><h2> there should be a table here with all of the math teachers with this last name range. the data should come from the spreadsheet </h2></center>
     </div>
+    <a href = "#HomePage"> go back home </a>
     </div>
 
 
