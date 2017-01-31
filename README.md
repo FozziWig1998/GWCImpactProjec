@@ -55,7 +55,7 @@ ul.tab li a:focus, .active {
 </ul>
 
 <!-------- first page---------->
-<div id = “tab”>
+<div id="MathTeachers" class="tabcontent">
 	<div data-role = “header”>
 		<center><h1> Math Teachers Contact</h1></center>
 </div>
@@ -87,7 +87,7 @@ ul.tab li a:focus, .active {
 
 <script>
 function openPages() {
-    var x = document.getElementById('tab');
+    var x = document.getElementByClass('tabstuff');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
