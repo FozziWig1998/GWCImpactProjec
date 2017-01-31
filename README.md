@@ -1,7 +1,12 @@
 <!doctype html>
 <html>
+
+<meta charset+utf-8 />
+<meta http-equiv = "Cache-Control" content = "no-store" />
+
 <body>
 <style>
+<script> $("body").css ('background' , '#E0BEFF'); </script>
 body {font-family: "Lato", sans-serif;}
 
 ul.tab {
