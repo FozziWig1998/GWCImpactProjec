@@ -54,8 +54,8 @@ ul.tab li a:focus, .active {
   <li><a href="javascript:void(0)" class="tablinks" onclick="openPages()">English</a></li>
 </ul>
 
-<-------- first page---------->
-<div data-role = “page” id = “tab”>
+<!-------- first page---------->
+<div id = “tab”>
 	<div data-role = “header”>
 		<center><h1> Math Teachers Contact</h1></center>
 </div>
