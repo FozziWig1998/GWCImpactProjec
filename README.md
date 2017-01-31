@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <body>
+<script>
 <style>
 body {font-family: "Lato", sans-serif;}
 
@@ -85,7 +86,7 @@ ul.tab li a:focus, .active {
     </div>
     </div>
 
-
+</script>
 <!--------<div id="RiddleContact" class="tabcontent">
   <h3>Riddle's Schedule</h3>
   <p>Email: john_riddle@ipsd.org</p> 
