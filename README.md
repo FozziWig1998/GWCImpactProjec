@@ -45,9 +45,6 @@ ul.tab li a:focus, .active {
 }
 </style>
 <body>
-
-<p>Click on the links inside the tabbed menu:</p>
-
 <ul class="tab">
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'MathTeachers')">Math</a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Science')">Science</a></li>
@@ -64,7 +61,7 @@ ul.tab li a:focus, .active {
 </div>
 
 <!--------------attempt to make actual web page ------------------->
-<div data-role "page" id = "MathTeachersA-F">
+<div data-role = "page" id = "MathTeachersA-F">
     <div data-role = "header">
     <center><h2> there should be a table here with all of the math teachers with this last name range. the data should come from the spreadsheet </h2></center>
     </div>
