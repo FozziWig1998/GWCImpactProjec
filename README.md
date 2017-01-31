@@ -54,7 +54,7 @@ ul.tab li a:focus, .active {
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'English')">English</a></li>
 </ul>
 
-<div id="MathTeachers" class="tabcontent">
+<div id="Math" class="tabcontent">
   <h3>Math Teachers</h3>
   <p><li><a href="#MathTeachersA-F"  onclick="location.reload()" id = "class">Last Name A-F</a></li></p> 
   <p><li><a href="#MathTeachersG-M"  onclick="location.reload()" id = "class">Last Name G-M</a></li></p> 
@@ -68,18 +68,12 @@ ul.tab li a:focus, .active {
     </div>
     </div>
  <!----------------------hopefully this actually works------------------>
-<div data-role = "page" id = "MathTeachersA-F">
-    <div data-role = "header">
-    <center><h2> there should be a table here with all of the math teachers with this last name range. the data should come from the spreadsheet </h2></center>
-    </div>
-    </div>
-<!-------------page 2..........?------------->
 <div data-role = "page" id = "MathTeachersG-M">
     <div data-role = "header">
     <center><h2> there should be a table here with all of the math teachers with this last name range. the data should come from the spreadsheet </h2></center>
     </div>
     </div>
-<!-------------page 3..........?------------->
+<!-------------page 2..........?------------->
 <div data-role = "page" id = "MathTeachersN-Z">
     <div data-role = "header">
     <center><h2> there should be a table here with all of the math teachers with this last name range. the data should come from the spreadsheet </h2></center>
