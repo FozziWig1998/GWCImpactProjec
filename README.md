@@ -49,18 +49,15 @@ ul.tab li a:focus, .active {
 <p>Click on the links inside the tabbed menu:</p>
 
 <ul class="tab">
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openPages()">Math</a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openpages()">Science</a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openPages()">English</a></li>
+<li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Math')"> Math </a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Math')"> Science </a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Math')"> English </a></li>
 </ul>
 
 <!-------- first page---------->
 <div id="MathTeachers" class="tabcontent">
-	<div data-role = “header”>
+	
 		<center><h1> Math Teachers Contact</h1></center>
-</div>
-<div data-role = “content”>
-	<div id = “Riddle Contact”></div>
 	<center>  
 <h3>Riddle's Schedule</h3>
  		 <p>Email: john_riddle@ipsd.org</p> 
@@ -83,16 +80,20 @@ ul.tab li a:focus, .active {
 
 </center>
 </div>
-</div>
 
 <script>
-function openPages() {
-    var x = document.getElementByClass('tabstuff');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
+function openTabInfo(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
     }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
 }
 
 
