@@ -58,13 +58,24 @@ ul.tab li a:focus, .active {
 
 <div id="MathTeachers" class="tabcontent">
   <h3>Math Teachers</h3>
-  <p><li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'RiddleContact')">Riddle</a></li></p> 
-  <p><li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'JohnsonContact')">Johnson</a></li></p>
-  <p><li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'TrantContact')">Trant</a></li></p>
-  <p><li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'WhaleyContact')">Whaley</a></li></p>
+  <p><li><a href="#MathTeachersA-F"  onclick="location.reload()" id = "class">Last Name A-F</a></li></p> 
+  <p><li><a href="#MathTeachersG-M"  onclick="location.reload()" id = "class">Last Name G-M</a></li></p> 
+  <p><li><a href="#MathTeachersN-Z"  onclick="location.reload()" id = "class">Last Name N-Z</a></li></p> 
 </div>
 
-<div id="RiddleContact" class="tabcontent">
+<!--------------attempt to make actual web page ------------------->
+<div data-role "page" id = "MathTeachersA-F">
+    <div data-role = "header">
+    <center><h2> there should be a table here with all of the math teachers with this last name range. the data should come from the spreadsheet </h2></center>
+    </div>
+    </div>
+ <!----------------------hopefully this actually works------------------>
+
+
+
+
+
+<!--------<div id="RiddleContact" class="tabcontent">
   <h3>Riddle's Schedule</h3>
   <p>Email: john_riddle@ipsd.org</p> 
   <p> open periods </p>
@@ -97,7 +108,7 @@ ul.tab li a:focus, .active {
   <h3>English</h3>
   <p>list of english teachers</p>
 </div>
-
+----------------->
 <script>
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
