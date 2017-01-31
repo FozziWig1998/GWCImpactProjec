@@ -6,7 +6,7 @@
 
 <body>
 <style>
-<script> $("body").css ('background' , '#E0BEFF'); </script>
+
 body {font-family: "Lato", sans-serif;}
 
 ul.tab {
@@ -62,7 +62,7 @@ ul.tab li a:focus, .active {
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Science')">Science</a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'English')">English</a></li>
 </ul>
-
+  </div>
 
 <!-----math tab ------>
 <div id="Math" class="tabcontent">
@@ -71,7 +71,7 @@ ul.tab li a:focus, .active {
   <p><li><a href="#MathTeachersG-M"  onclick="location.reload()" id = "class">Last Name G-M</a></li></p> 
   <p><li><a href="#MathTeachersN-Z"  onclick="location.reload()" id = "class">Last Name N-Z</a></li></p> 
   </div>
-  </div>
+
 <!--------------attempt to make actual web page ------------------->
 <div data-role = "page" id = "MathTeachersA-F">
     <div data-role = "header">
