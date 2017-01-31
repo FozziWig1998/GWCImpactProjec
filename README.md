@@ -45,13 +45,14 @@ ul.tab li a:focus, .active {
 }
 </style>
 <body>
+<div data-role = "page" id = "HomePage">
+    <div data-role = "header">
+    <center><h1> Teacher Periods </h1></center>
 <ul class="tab">
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'MathTeachers')">Math</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Math')">Math</a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Science')">Science</a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'English')">English</a></li>
 </ul>
-
-
 
 <div id="MathTeachers" class="tabcontent">
   <h3>Math Teachers</h3>
@@ -67,8 +68,23 @@ ul.tab li a:focus, .active {
     </div>
     </div>
  <!----------------------hopefully this actually works------------------>
-
-
+<div data-role = "page" id = "MathTeachersA-F">
+    <div data-role = "header">
+    <center><h2> there should be a table here with all of the math teachers with this last name range. the data should come from the spreadsheet </h2></center>
+    </div>
+    </div>
+<!-------------page 2..........?------------->
+<div data-role = "page" id = "MathTeachersG-M">
+    <div data-role = "header">
+    <center><h2> there should be a table here with all of the math teachers with this last name range. the data should come from the spreadsheet </h2></center>
+    </div>
+    </div>
+<!-------------page 3..........?------------->
+<div data-role = "page" id = "MathTeachersN-Z">
+    <div data-role = "header">
+    <center><h2> there should be a table here with all of the math teachers with this last name range. the data should come from the spreadsheet </h2></center>
+    </div>
+    </div>
 
 
 
