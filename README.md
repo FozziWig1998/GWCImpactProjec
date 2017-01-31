@@ -1,4 +1,3 @@
-# GWCImpactProject
 <!DOCTYPE html>
 <html>
 <style>
@@ -55,48 +54,35 @@ ul.tab li a:focus, .active {
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'English')">English</a></li>
 </ul>
 
-
-
-<div id="MathTeachers" class="tabcontent">
-  <h3>Math Teachers</h3>
-  <p><li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'RiddleContact')">Riddle</a></li></p> 
-  <p><li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'JohnsonContact')">Johnson</a></li></p>
-  <p><li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'TrantContact')">Trant</a></li></p>
-  <p><li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'WhaleyContact')">Whaley</a></li></p>
+<-------- first page---------->
+<div data-role = “page” id = “MathTeachers”>
+	<div data-role = “header”>
+		<center><h1> Math Teachers Contact</h1></center>
 </div>
+<div data-role = “content”>
+	<div id = “Riddle Contact”></div>
+	<center>  
+<h3>Riddle's Schedule</h3>
+ 		 <p>Email: john_riddle@ipsd.org</p> 
+  		<p> open periods </p>
+	<br> <br>
+		<h3>Johnson's Schedule</h3>
+  		<p>Email: natalie_johnson@ipsd.org</p> 
+  		<p> open periods </p>
 
-<div id="RiddleContact" class="tabcontent">
-  <h3>Riddle's Schedule</h3>
-  <p>Email: john_riddle@ipsd.org</p> 
-  <p> open periods </p>
+<br> <br>
+		<h3>Trant's Schedule</h3>
+ 		 <p>Email: firstname_trant@ipsd.org</p> 
+  		<p> open periods </p>
+
+	<br> <br>
+		 <h3>Whaley's Schedule</h3>
+  		<p>Email: christopher_whaley@ipsd.org</p> 
+ 		 <p> open periods </p>
+
+
+</center>
 </div>
-
-<div id="JohnsonContact" class="tabcontent">
-  <h3>Johnson's Schedule</h3>
-  <p>Email: natalie_johnson@ipsd.org</p> 
-  <p> open periods </p>
-</div>
-
-<div id="TrantContact" class="tabcontent">
-  <h3>Trant's Schedule</h3>
-  <p>Email: firstname_trant@ipsd.org</p> 
-  <p> open periods </p>
-</div>
-
-<div id="WhaleyContact" class="tabcontent">
-  <h3>Whaley's Schedule</h3>
-  <p>Email: christopher_whaley@ipsd.org</p> 
-  <p> open periods </p>
-</div>
-
-<div id="Science" class="tabcontent">
-  <h3>Science</h3>
-  <p>list of science teachers</p> 
-</div>
-
-<div id="English" class="tabcontent">
-  <h3>English</h3>
-  <p>list of english teachers</p>
 </div>
 
 <script>
@@ -117,3 +103,4 @@ function openCity(evt, cityName) {
      
 </body>
 </html> 
+
