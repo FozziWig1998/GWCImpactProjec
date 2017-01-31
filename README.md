@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <body>
 <script>
@@ -85,7 +85,6 @@ ul.tab li a:focus, .active {
     <center><h2> there should be a table here with all of the math teachers with this last name range. the data should come from the spreadsheet </h2></center>
     </div>
     </div>
-    </script>
 
 
 <!--------<div id="RiddleContact" class="tabcontent">
@@ -122,7 +121,6 @@ ul.tab li a:focus, .active {
   <p>list of english teachers</p>
 </div>
 ----------------->
-<script>
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
