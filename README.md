@@ -44,10 +44,10 @@ ul.tab li a:focus, .active {
     border-top: none;
 }
 </style>
-<body>
 <div data-role = "page" id = "HomePage">
     <div data-role = "header">
     <center><h1> Teacher Periods </h1></center>
+    </div>
 <ul class="tab">
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Math')">Math</a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Science')">Science</a></li>
@@ -60,7 +60,7 @@ ul.tab li a:focus, .active {
   <p><li><a href="#MathTeachersG-M"  onclick="location.reload()" id = "class">Last Name G-M</a></li></p> 
   <p><li><a href="#MathTeachersN-Z"  onclick="location.reload()" id = "class">Last Name N-Z</a></li></p> 
 </div>
-
+</div>
 <!--------------attempt to make actual web page ------------------->
 <div data-role = "page" id = "MathTeachersA-F">
     <div data-role = "header">
@@ -131,8 +131,6 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += " active";
 }
 </script>
-     
-</body>
 </html> 
 
 
