@@ -49,21 +49,22 @@ ul.tab li a:focus, .active {
     <center><h1> Teacher Periods </h1></center>
     </div>
     <div data-role = "content">
-    <div id = "homepage stuff"></div>
+        <div id = "homepage stuff"></div>
 <ul class="tab">
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Math')">Math</a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Science')">Science</a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'English')">English</a></li>
 </ul>
-
+</div>
+</div>
+<!-----math tab ------>
 <div id="Math" class="tabcontent">
   <h3>Math Teachers</h3>
   <p><li><a href="#MathTeachersA-F"  onclick="location.reload()" id = "class">Last Name A-F</a></li></p> 
   <p><li><a href="#MathTeachersG-M"  onclick="location.reload()" id = "class">Last Name G-M</a></li></p> 
   <p><li><a href="#MathTeachersN-Z"  onclick="location.reload()" id = "class">Last Name N-Z</a></li></p> 
   </div>
-</div>
-</div>
+
 <!--------------attempt to make actual web page ------------------->
 <div data-role = "page" id = "MathTeachersA-F">
     <div data-role = "header">
