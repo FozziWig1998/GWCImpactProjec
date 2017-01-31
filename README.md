@@ -50,14 +50,14 @@ ul.tab li a:focus, .active {
 
 <ul class="tab">
 <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Math')"> Math </a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Math')"> Science </a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Math')"> English </a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Science')"> Science </a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'English')"> English </a></li>
 </ul>
 
 <!-------- first page---------->
 <div id="MathTeachers" class="tabcontent">
 	
-		<center><h1> Math Teachers Contact</h1></center>
+	<center><h1> Math Teachers Contact</h1></center>
 	<center>  
 <h3>Riddle's Schedule</h3>
  		 <p>Email: john_riddle@ipsd.org</p> 
