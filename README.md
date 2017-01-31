@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+<body>
+<script>
 <style>
 body {font-family: "Lato", sans-serif;}
 
@@ -83,7 +85,7 @@ ul.tab li a:focus, .active {
     <center><h2> there should be a table here with all of the math teachers with this last name range. the data should come from the spreadsheet </h2></center>
     </div>
     </div>
-
+    </script>
 
 
 <!--------<div id="RiddleContact" class="tabcontent">
@@ -135,6 +137,7 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += " active";
 }
 </script>
+</body>
 </html> 
 
 
