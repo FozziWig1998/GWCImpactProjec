@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 <body>
-<script>
 <style>
 body {font-family: "Lato", sans-serif;}
 
@@ -52,12 +51,13 @@ ul.tab li a:focus, .active {
     </div>
     <div data-role = "content">
         <div id = "homepage stuff"></div>
+    </div>
 <ul class="tab">
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Math')">Math</a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Science')">Science</a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'English')">English</a></li>
 </ul>
-</div>
+
 </div>
 <!-----math tab ------>
 <div id="Math" class="tabcontent">
@@ -86,7 +86,7 @@ ul.tab li a:focus, .active {
     </div>
     </div>
 
-</script>
+
 <!--------<div id="RiddleContact" class="tabcontent">
   <h3>Riddle's Schedule</h3>
   <p>Email: john_riddle@ipsd.org</p> 
