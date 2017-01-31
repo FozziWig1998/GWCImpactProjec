@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 
-<meta charset+utf-8 />
+<meta charset=utf-8 />
 <meta http-equiv = "Cache-Control" content = "no-store" />
 
 <body>
