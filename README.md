@@ -1,8 +1,10 @@
 <!doctype html>
 <html>
-
-<meta charset=utf-8 />
-<meta http-equiv = "Cache-Control" content = "no-store" />
+<head>
+    <meta charset=utf-8 />
+    <meta http-equiv = "Cache-Control" content = "no-store" />
+    <title>Teacher Periods</title>
+</head>
 
 <body>
 <style>
