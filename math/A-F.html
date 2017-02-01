@@ -1,1 +1,21 @@
-A-F
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Tabs - Default functionality</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <script>
+     function loadnav(){
+       $.get( "../includes/nav.html", function( data ) {
+         $( "#nav" ).html( data );
+       }); 
+   </script>
+</head>
+  <body onload = "loadnav()">
+    <nav id = "nav">
+    </nav>
+  </body>
+</html>
+    
